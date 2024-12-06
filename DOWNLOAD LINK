@@ -1,0 +1,15 @@
+Due to unfortunate circumstances, like not being able to upload the folder here, or the compressed archive here, the editor (Chester Kobe D. Castro) have uploaded the archive that contains the folder to the mega.nz download link.
+
+Link: https://mega.nz/file/imph2KZK#BjvcVBL7YqPuVR9zUPZH5-7Yi_IflCGQOPHw1IR8bac
+
+After downloading the file, which is named DokiMumu.7z, extract it from the archive and place it on the htdocs folder.
+
+After placing it, run VSCode, and make sure to have the DokiMumu folder open on VSCode otherwise it will NOT run.
+run these commands on the VSCode Terminal (or GitBash Console, if you'd prefer.) 
+(all on gitbash)
+npm run build
+npm run dev
+php artisan optimize
+php artisan serve
+
+And follow the link/IP that is give in the terminal.
